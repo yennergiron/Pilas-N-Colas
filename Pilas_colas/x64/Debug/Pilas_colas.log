@@ -1,0 +1,40 @@
+﻿  Pilas_colas.cpp
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(37,28): error C2664: 'void insertarCola(Nodo &,Nodo &,Cliente)': el argumento 1 no puede convertirse de 'Nodo *' a 'Nodo &'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(25,6): message : vea la declaración de 'insertarCola'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(48,28): error C2664: 'void suprimirCola(Nodo &,Nodo &,Cliente &)': el argumento 1 no puede convertirse de 'Nodo *' a 'Nodo &'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(27,6): message : vea la declaración de 'suprimirCola'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(56,2): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(75,5): error C2664: 'bool cola_vacia(Nodo *)': el argumento 1 no puede convertirse de 'Nodo' a 'Nodo *'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(75,17): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(26,6): message : vea la declaración de 'cola_vacia'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(76,22): error C2679: '=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'Nodo *' (o bien no existe una conversión aceptable)
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : puede ser 'Nodo &Nodo::operator =(Nodo &&)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : o       'Nodo &Nodo::operator =(const Nodo &)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(76,22): message : al hacer coincidir la lista de argumentos '(Nodo, Nodo *)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(79,6): error C2819: el tipo 'Nodo' no tiene un miembro sobrecargado 'operator ->'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(18): message : vea la declaración de 'Nodo'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(79,6): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(79,18): error C2232: '->Nodo::siguiente': el operando izquierdo tiene el tipo 'struct'; utilice '.'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(82,18): error C2679: '=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'Nodo *' (o bien no existe una conversión aceptable)
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : puede ser 'Nodo &Nodo::operator =(Nodo &&)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : o       'Nodo &Nodo::operator =(const Nodo &)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(82,18): message : al hacer coincidir la lista de argumentos '(Nodo, Nodo *)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(90,12): error C2819: el tipo 'Nodo' no tiene un miembro sobrecargado 'operator ->'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(18): message : vea la declaración de 'Nodo'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(90,12): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(90,15): error C2232: '->Nodo::c': el operando izquierdo tiene el tipo 'struct'; utilice '.'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(91,20): error C2440: 'inicializando': no se puede realizar la conversión de 'Nodo' a 'Nodo *'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(91,12): message : No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(93,13): error C2676: '==' binario: 'Nodo' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(94,16): error C2679: '=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'int' (o bien no existe una conversión aceptable)
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : puede ser 'Nodo &Nodo::operator =(Nodo &&)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : o       'Nodo &Nodo::operator =(const Nodo &)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(94,16): message : al hacer coincidir la lista de argumentos '(Nodo, int)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(95,13): error C2679: '=' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'int' (o bien no existe una conversión aceptable)
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : puede ser 'Nodo &Nodo::operator =(Nodo &&)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(21,1): message : o       'Nodo &Nodo::operator =(const Nodo &)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(95,13): message : al hacer coincidir la lista de argumentos '(Nodo, int)'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(98,18): error C2819: el tipo 'Nodo' no tiene un miembro sobrecargado 'operator ->'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(18): message : vea la declaración de 'Nodo'
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(98,18): message : ¿deseaba utilizar '.' en su lugar?
+C:\Users\yenne\source\repos\Pilas_colas\Pilas_colas\Pilas_colas.cpp(98,29): error C2232: '->Nodo::siguiente': el operando izquierdo tiene el tipo 'struct'; utilice '.'
